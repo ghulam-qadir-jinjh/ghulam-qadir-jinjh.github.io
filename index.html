@@ -3,133 +3,61 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Ghulam Qadir Jinjh | Electrical Engineer</title>
+<title>Ghulam Qadir Jinjh</title>
 <meta name="description" content="Personal academic website of Ghulam Qadir Jinjh, MSc student in Digital Electrical Energy at Skoltech.">
-<style>
-  :root { --bg:#ffffff; --text:#1f2933; --muted:#5b6770; --accent:#1e50a0; --line:#e3e8ee; --card:#f6f8fb; }
-  @media (prefers-color-scheme: dark) {
-    :root { --bg:#12161c; --text:#e6e9ee; --muted:#9aa5b1; --accent:#6ea1f0; --line:#262d36; --card:#1a2028; }
-  }
-  * { box-sizing: border-box; }
-  body { margin:0; font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif; background:var(--bg); color:var(--text); line-height:1.6; }
-  header { max-width:860px; margin:0 auto; padding:48px 20px 16px; }
-  h1 { margin:0; font-size:2rem; color:var(--accent); }
-  .sub { color:var(--muted); margin:6px 0 0; }
-  nav { max-width:860px; margin:0 auto; padding:8px 20px; display:flex; flex-wrap:wrap; gap:16px; border-bottom:1px solid var(--line); }
-  nav a { color:var(--accent); text-decoration:none; font-weight:600; font-size:.95rem; }
-  main { max-width:860px; margin:0 auto; padding:0 20px 60px; }
-  section { padding-top:28px; }
-  h2 { font-size:1.25rem; border-bottom:2px solid var(--accent); display:inline-block; padding-bottom:2px; margin:0 0 14px; }
-  .item { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px 16px; margin-bottom:12px; }
-  .item h3 { margin:0; font-size:1.02rem; }
-  .meta { color:var(--muted); font-size:.9rem; margin:2px 0 6px; }
-  .item p { margin:6px 0 0; }
-  ul { padding-left:20px; margin:6px 0 0; }
-  a { color:var(--accent); }
-  footer { max-width:860px; margin:0 auto; padding:20px; color:var(--muted); font-size:.85rem; border-top:1px solid var(--line); }
-</style>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-  <h1>Ghulam Qadir Jinjh</h1>
-  <p class="sub">Electrical Engineer | MSc Student, Digital Electrical Energy, Skoltech, Moscow</p>
-  <p class="sub">Email: <a href="mailto:ghulam.qadir@skoltech.ru">ghulam.qadir@skoltech.ru</a></p>
-</header>
-
 <nav>
-  <a href="#about">About</a>
-  <a href="#education">Education</a>
-  <a href="#publications">Publications</a>
-  <a href="#experience">Experience</a>
-  <a href="#projects">Projects</a>
-  <a href="#honours">Honours</a>
+  <a class="active" href="index.html">Home</a>
+  <a href="projects.html">Projects</a>
+  <a href="research.html">Publications</a>
+  <a href="industry.html">Industry Experience</a>
+  <a href="CV.pdf">CV</a>
 </nav>
 
 <main>
+  <div class="hero">
+    <div class="text">
+      <h1>Ghulam Qadir Jinjh</h1>
+      <p>I am an electrical engineer and MSc student in Digital Electrical Energy at the <a href="https://student.skoltech.ru/">Skolkovo Institute of Science and Technology (Skoltech)</a>, Moscow, graduating in June 2027. My research focuses on <strong>power electronics for electric vehicles</strong>, in particular bidirectional AC-DC converters for Vehicle-to-Grid (V2G) and Grid-to-Vehicle (G2V) applications.</p>
+      <p>My work covers PLECS modelling, phase-shift control, DSP-based hardware implementation on the TI TMS320F28379D, and fault location in overhead transmission lines.</p>
+      <div class="links">
+        <a href="mailto:ghulam.qadir@skoltech.ru">Email</a>
+        <a href="https://www.linkedin.com/in/ghulam-qadir-jinjh-522424252" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+    <img src="photo.png" alt="Ghulam Qadir Jinjh">
+  </div>
 
-<section id="about">
-  <h2>About</h2>
-  <p>I am an electrical engineer and MSc student in Digital Electrical Energy at the Skolkovo Institute of Science and Technology (Skoltech), graduating in June 2027. My work focuses on power electronics for electric-vehicle applications. My thesis addresses a single-stage isolated bidirectional AC-DC Dual Active Bridge (DAB) converter for Vehicle-to-Grid (V2G) and Grid-to-Vehicle (G2V) systems, covering PLECS modelling, phase-shift control and DSP-based hardware implementation.</p>
-</section>
+  <h4>Studied At</h4>
+  <div class="item">
+    <h3><a href="https://student.skoltech.ru/">Skoltech</a>, Moscow, Russia</h3>
+    <div class="meta">MSc Digital Electrical Energy | Fully funded scholarship</div>
+  </div>
+  <div class="item">
+    <h3>BBSUTSD, Khairpur Mirs, Pakistan</h3>
+    <div class="meta">BSc Electrical Engineering | HEC Merit-Based Scholarship</div>
+  </div>
 
-<section id="education">
-  <h2>Education</h2>
+  <h4>Worked At</h4>
   <div class="item">
-    <h3>MSc Digital Electrical Energy</h3>
-    <div class="meta">Skoltech, Moscow, Russia | Expected June 2027 | Fully funded scholarship</div>
-    <p>Thesis: Single-Stage Isolated Bidirectional AC-DC Dual Active Bridge Converter for V2G and G2V Applications. Supervisor: Prof. Federico Martin Ibanez.</p>
+    <h3><a href="https://tekvel.com">Tekvel</a>, Russia</h3>
+    <div class="meta">Industrial Immersion Intern, Fault Location</div>
   </div>
   <div class="item">
-    <h3>BSc Electrical Engineering</h3>
-    <div class="meta">BBSUTSD, Khairpur Mirs, Pakistan | 2023 | CGPA 3.51 | HEC Merit-Based Scholarship</div>
-  </div>
-</section>
-
-<section id="publications">
-  <h2>Publications</h2>
-  <div class="item">
-    <p><strong>Qadir, G.</strong> et al., Single-Stage Isolated AC-DC Dual Active Bridge Converter with Reduced Control Complexity for G2V and V2G Applications. <em>SUMMA 2026</em>, Lipetsk, Russia.</p>
+    <h3>Quaid-e-Azam Solar Power Plant, Pakistan</h3>
+    <div class="meta">Engineering Intern</div>
   </div>
   <div class="item">
-    <p>et al., <strong>Qadir, G.</strong> (second author), Three-Phase Isolated AC-DC Converter for Electric Vehicle Applications.</p>
-  </div>
-</section>
-
-<section id="experience">
-  <h2>Experience</h2>
-  <div class="item">
-    <h3>Industrial Immersion Intern, Fault Location</h3>
-    <div class="meta">Tekvel, Moscow, Russia | 2 months</div>
-    <p>Built PLECS power-system models of overhead transmission lines (single line-to-ground faults, multi-fault types and two-sided power flow) for fault-location algorithm development.</p>
+    <h3>Guddu Thermal Power Plant, Pakistan</h3>
+    <div class="meta">Engineering Intern</div>
   </div>
   <div class="item">
-    <h3>Engineering Internships</h3>
-    <div class="meta">Pakistan</div>
-    <ul>
-      <li>Quaid-e-Azam Solar Power Plant</li>
-      <li>Guddu Thermal Power Plant</li>
-      <li>The Power House of AFM</li>
-    </ul>
+    <h3>The Power House of AFM, Pakistan</h3>
+    <div class="meta">Engineering Intern</div>
   </div>
-</section>
-
-<section id="projects">
-  <h2>Projects</h2>
-  <div class="item">
-    <h3>Single-Stage Isolated Bidirectional AC-DC DAB Converter for V2G/G2V</h3>
-    <div class="meta">Skoltech, 2025-26</div>
-    <p>5 kW converter with 12 MOSFETs, variable-duty phase-shift control and a hybrid CC/CV/TPS controller. In PLECS: up to 99% efficiency, THD below 2.1% and near-unity power factor over the full range. Hardware implementation on a TI TMS320F28379D DSP is in progress.</p>
-  </div>
-  <div class="item">
-    <h3>PinSight: Programmable Visual Verification of Cable Harnesses</h3>
-    <div class="meta">Skoltech Innovation Workshop, 2026</div>
-    <p>System design and assembly lead in a five-member team. Awarded 2nd position.</p>
-  </div>
-  <div class="item">
-    <h3>Smart Energy Hub: Fast EV Charging for Gas Stations</h3>
-    <div class="meta">Skoltech, 2026</div>
-    <p>Concept for fast EV charging at independent gas stations using the existing grid connection plus battery storage, on a revenue-share model.</p>
-  </div>
-  <div class="item">
-    <h3>Hybrid Energized Dual Backup Solar and Battery Firefighting QRob</h3>
-    <div class="meta">BSc final-year project | Funded by Ignite National Technology Fund, Pakistan</div>
-    <p>Firefighting robot powered by a hybrid solar and battery energy system with dual backup.</p>
-  </div>
-</section>
-
-<section id="honours">
-  <h2>Honours and Awards</h2>
-  <div class="item">
-    <ul>
-      <li>2nd position, Innovation Workshop, Skoltech, 2026</li>
-      <li>Fully funded MSc scholarship, Skoltech</li>
-      <li>Ignite National Technology Fund grant for BSc final-year project</li>
-      <li>HEC Undergraduate Merit-Based Scholarship, Pakistan</li>
-    </ul>
-  </div>
-</section>
-
 </main>
 
 <footer>&copy; 2026 Ghulam Qadir Jinjh</footer>
